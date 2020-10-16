@@ -1,0 +1,86 @@
+header {
+    background-color: gray;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header h1 {
+    color: white;
+    padding-left: 20%;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 20%;
+}
+
+#know {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+body > div > p {
+    color: gold;
+    font-size: 60px;
+    display: flex;
+    align-self: center;
+}
+
+#blueBoxes {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.blue {
+    background-color: lightblue;
+    display: flex;
+    align-self: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    margin-top: 30px;
+}
+
+#yellowBoxes {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.yellow {
+    height: 225px;
+    width: 550px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nonsence {
+    display: flex;
+    width: 500px;
+}
+
+footer {
+    height: 15vh;
+    width: 100vw;
+    background-color: darkgrey;
+    margin-top: 5vh;
+}
